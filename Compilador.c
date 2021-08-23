@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
-
+#include "compilador.h"
 char look; /* O caracter lido "antecipadamente" (lookahead) */
 int labelCount; /* indica o rótulo atual */
 
