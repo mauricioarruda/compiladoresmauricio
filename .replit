@@ -207,6 +207,8 @@ void ident()
 {
 char name;
 
+/
+
 name = getName();
 if (look == '(') {
 match('(');
